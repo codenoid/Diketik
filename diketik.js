@@ -1,3 +1,4 @@
+// github.com/codenoid/Diketik
 const Diketik = el => ({
   	el,
   	sleep: (ms) => {
