@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Diketik Example & Documentation</title>
+</head>
+<body>
+	<h2>Ticker</h2>
+	<code>Diketik(el).ticker("halo apa kabs!", 150)</code>
+	<p id="ticker"></p>
+	<hr>
+	<h2>Rolling</h2>
+	<code>
+		var language = ["Bash", "Perl", "PHP", "Python", "Elixir", "Erlang", "Ruby", "JavaScript", "Java", "Clojure", "Scala", "Groovy", "C", "C++", "C#", "VB.Net", "F#", "Swift", "Objective-C", "R", "VBScript", "Lua", "Awk", "Expect", "AppleScript", "Haskell", "Go", "D", "Pascal", "Assembly", "ML", "ZSH", "Fortran", "Tcl", "Ocaml", "Dart", "Crystal"];
+		<br>Diketik(el).rolling(language)
+	</code>
+	<h3 id="ticker1"></h3>
+
+	<script src="../diketik.js"></script>
+	<script>
+		var el = document.getElementById("ticker")
+		Diketik(el).ticker("halo apa kabs!", 150, true)
+
+		var el = document.getElementById("ticker1")
+		var language = ["Bash", "Perl", "PHP", "Python", "Elixir", "Erlang", "Ruby", "JavaScript", "Java", "Clojure", "Scala", "Groovy", "C", "C++", "C#", "VB.Net", "F#", "Swift", "Objective-C", "R", "VBScript", "Lua", "Awk", "Expect", "AppleScript", "Haskell", "Go", "D", "Pascal", "Assembly", "ML", "ZSH", "Fortran", "Tcl", "Ocaml", "Dart", "Crystal"];
+		Diketik(el).rolling(language)
+	</script>
+</body>
+</html>

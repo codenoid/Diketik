@@ -1,2 +1,2 @@
-# Diketik
-JavaScript emulate human typing library
+# Diketik [WIP]
+JavaScript library collection of text effect
